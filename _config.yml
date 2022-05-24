@@ -1,21 +1,21 @@
 # Site settings
-title: eddy wong's blog! # site title
+title: Calvin Lau's Portfolio # site title
 lang: en-US # default lang
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Eddy Wong # author name
+  name: Calvin Lau # author name
   bio: >- # tell to the world
-    Welcome to my blog! This is where you can get to know me as a person and find more about my passions!
+    Welcome to my portfolio! This is where you can find all my projects and find my contact details
   github: eddyxwong # github username
-  facebook: eddyxwong # facebook username
+  facebook: calvin.lau.7773 # facebook username
   email: eddyxwong@gmail.com # email address
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  avatar: /assets/img/avatar.gif # change with your own avatar
 
 # URL settings
-url:      #
-baseurl:  #
+url: #
+baseurl: #
 permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
@@ -34,7 +34,7 @@ kramdown:
 # Default front matter
 defaults:
   - scope:
-      path: ""
+      path: ''
     values:
       layout: post
       comments: false
